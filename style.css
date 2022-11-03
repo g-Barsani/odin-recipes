@@ -1,0 +1,35 @@
+body {
+    background-color: pink;
+
+    
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#witch-pic,
+#halloween-cake-pops, 
+#halloween-spaghetti, 
+#black-cat-martini, 
+#the-puking-pumpkin {
+    display: flex;
+    max-width: 600px;
+}
+
+img {
+    float: left;
+    width:  600px;
+    height: 400px;
+    background-size: cover;
+}
+

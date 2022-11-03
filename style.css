@@ -1,16 +1,10 @@
 body {
     background-color: pink;
 
-    
-}
-
-#main-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    min-height: 100vh;
-    max-width: 600px;
+    margin:0;
+    height:100vh; /* use 100% of the height of the viewport */
+    display:grid;             
+    place-items: center;
 }
 
 h1 {
@@ -24,6 +18,7 @@ h1 {
 #the-puking-pumpkin {
     display: flex;
     max-width: 600px;
+    margin-bottom: 8px;
 }
 
 img {

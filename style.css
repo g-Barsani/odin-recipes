@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: black;
 
     /* Center the content of the page */
     margin:0;
@@ -34,7 +34,7 @@ img {
 
 .halloween-cake-pops {
     position: absolute;
-    top: 125%;
+    top: 65%;
     bottom: 25%;
     left: 10%;
 
@@ -43,7 +43,7 @@ img {
 
 .halloween-spaghetti {
     position: absolute;
-    top: 184%;
+    top: 124%;
     bottom: 25%;
     left: 10%;
 
@@ -53,7 +53,7 @@ img {
 
 .black-cat-martini {
     position: absolute;
-    top: 242%;
+    top: 182%;
     bottom: 25%;
     left: 10%;
 
@@ -63,10 +63,50 @@ img {
 
 .the-puking-pumpkin {
     position: absolute;
-    top: 301%;
+    top: 241%;
     bottom: 25%;
     left: 10%;
 
     color: red;
 
+}
+
+#repo-section {
+    background-color: rgb(39, 39, 39);
+    min-height: 200px;
+}
+
+.repo-txt {
+    text-align: center;
+    color: white;
+}
+
+.repo-frame {
+    position: absolute;
+    background: orangered;
+    margin: 10px;
+    margin-top: 18px;
+    padding: 1px;
+    min-width: 580px;
+    border-radius: 5px;
+}
+
+.repo-frame:hover {
+    background-color: rgb(179, 48, 0);
+}
+
+.github-logo img{
+    top: 249.5%;
+    left: 10%;
+    position: absolute;
+    width: 60px; /* you can use % */
+    height: 60px;
+    /* object-fit: contain; */
+}
+#release-year {
+    color: white;
+    position: absolute;
+    top: 266%;
+    left: 47%;
+    text-decoration: underline;
 }

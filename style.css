@@ -1,6 +1,7 @@
 body {
-    background-color: pink;
+    background-color: grey;
 
+    /* Center the content of the page */
     margin:0;
     height:100vh; /* use 100% of the height of the viewport */
     display:grid;             
@@ -9,6 +10,7 @@ body {
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 #witch-pic,
@@ -19,6 +21,8 @@ h1 {
     display: flex;
     max-width: 600px;
     margin-bottom: 8px;
+
+
 }
 
 img {
@@ -28,3 +32,41 @@ img {
     background-size: cover;
 }
 
+.halloween-cake-pops {
+    position: absolute;
+    top: 125%;
+    bottom: 25%;
+    left: 10%;
+
+    color: red;
+}
+
+.halloween-spaghetti {
+    position: absolute;
+    top: 184%;
+    bottom: 25%;
+    left: 10%;
+
+    color: red;
+
+}
+
+.black-cat-martini {
+    position: absolute;
+    top: 242%;
+    bottom: 25%;
+    left: 10%;
+
+    color: red;
+
+}
+
+.the-puking-pumpkin {
+    position: absolute;
+    top: 301%;
+    bottom: 25%;
+    left: 10%;
+
+    color: red;
+
+}

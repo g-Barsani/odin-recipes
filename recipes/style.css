@@ -3,12 +3,61 @@ body {
     color: white;
 }
 
+h1 {
+    font-family: 'Bebas Neue';
+}
+
+h2, p, li {
+    font-family: 'Source Sans Pro';
+}
+
 #ingredients label {
     /* float: left; */
   }
 
-#ingredients input:checked {
+[type=checkbox] {
+    /* Before styling the checkbox, turn off the standard settings */
+    -webkit-appearance: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    vertical-align: middle;
+    color: rgb(228, 0, 38);
+    border-radius: 50%;
+    background: none;
+    background-color: white;    
+    /* Delay the interaction with the button visually */
+    transition: background 300ms;
+    cursor: pointer;
+
+
+
+}
+
+[type=checkbox]:hover {
+    background-color: rgb(197, 197, 197);
+}
+
+[type=checkbox]:before {
+    content: "";
+    color: transparent;
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    /* border: 0; */
+    /* background-color: transparent; */
+    background-size: contain;
+    /* box-shadow: inset 0 0 0 1px #CCD3D8; */
+}
+  
+
+[type=checkbox]:checked {
     background-color: orangered;
+}
+
+[type=checkbox]:checked::before{
+    box-shadow: none;
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/zr_icon/checkbox-5.png");
 }
   
 #ingredients ul {

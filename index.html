@@ -4,41 +4,43 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
         <title>Halloween Recipes</title>
     </head>
 
     <body>
+        <div id="test"></div>
         
         <div id="main-container">
             <h1>Halloween Recipes</h1>
-            <div id="halloween-cake-pops">
-                <a href="recipes/halloween-cake-pops.html">
-                    <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1095456_10-8dee3d7.jpg?quality=90&webp=true&resize=440,400" alt="Halloween cake pops in a pumpkin bowl">
-                </a>
-                <div class="halloween-cake-pops">Halloween Cake Pops</div>
-            </div>
-    
-            <div id="halloween-spaghetti">
-                <a href="recipes/halloween-spaghetti.html">
-                    <img src="https://summeryule.com/wp-content/uploads/2021/09/healthy-halloween-recipes-noodles-720x720.jpeg" alt="Two bowls of the Halloween Spaghetti">
-                </a>
-                <div class="halloween-spaghetti">Halloween Spaghetti</div>
-            </div>
-    
-            <div id="black-cat-martini">
-                <a href="recipes/black-cat-martini.html">
-                    <img src="data:image/jpeg;base64,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" alt="Two glasses of the Black Cat Martini in a perfectly curated scene">
-                </a>
-                <div class="black-cat-martini">Black Cat Martini</div>
-            </div>
-    
-            <div id="the-puking-pumpkin">
-                <a href="recipes/the-puking-pumpkin.html">
-                    <img src="https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2016/10/puking-pumpkin-2-744x967.jpg" alt="The Puking Pumpkin with a couple of glass bottles around it">
-                </a>
-                <div class="the-puking-pumpkin">The Puking Pumpkin</div>
-            </div>
-            <a href=""></a>
+            <a href="recipes/halloween-cake-pops.html">
+                <div id="halloween-cake-pops"></div>
+                <h2>Halloween Cake Pops</h2>
+            </a>
+            <a href="recipes/halloween-spaghetti.html">
+                <div id="halloween-spaghetti"></div>
+                <h2>Halloween Spaghetti</h2>
+            </a>
+            <a href="recipes/black-cat-martini.html">
+                <div id="black-cat-martini"></div>
+                <h2>Black Cat Martini</h2>
+            </a>
+            <a href="recipes/the-puking-pumpkin.html">
+                <div id="the-puking-pumpkin"></div>
+                <h2>The Puking Pumpkin</h2>
+            </a>
+
+
+
+
+
             <div id="repo-section">
                 <a href="https://github.com/g-Barsani/odin-recipes">
                     <div class="repo-frame"><h2 class="repo-txt">Repository</h2></div>

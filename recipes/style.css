@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#ingredients label {
+    /* float: left; */
+  }
+
+#ingredients input:checked {
+    background-color: orangered;
+}
+  
+#ingredients ul {
+    left: 0;
+    list-style: none;
+    /* float: left; */
+  }

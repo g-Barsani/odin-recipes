@@ -95,7 +95,7 @@ div #the-puking-pumpkin {
 }
 
 .github-logo img{
-    top: 269.5%;
+    top: 317%;
     left: 10%;
     position: absolute;
     width: 60px; /* you can use % */
@@ -105,7 +105,56 @@ div #the-puking-pumpkin {
 #release-year {
     color: white;
     position: absolute;
-    top: 328%;
+    top: 335%;
     left: 47%;
     text-decoration: underline;
 }
+
+@media (min-width: 576px) {
+    #main-container {
+        display: flex;
+        flex-direction: row;
+        /* align-content: flex-start; */
+    }
+    
+
+    div #halloween-cake-pops,
+    div #halloween-spaghetti,
+    div #black-cat-martini,
+    div #the-puking-pumpkin {
+        width: 300px;
+        height: 500px;
+        margin-left: 8px;
+
+        /* Stretch the image to avoid empty gaps  */
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        background-position: center; 
+    }
+
+    #repo-section {
+        
+        min-width: 100%;
+        min-height: 30vh;
+        flex-direction: column;
+        position:absolute;
+        top: 680px;
+        left: 0;
+    }
+
+    .repo-frame {
+        background-color: rgb(83, 83, 83);
+    }
+
+    .github-logo img {
+        top: 705px;
+    }
+
+    #release-year {
+        top: 810px;
+    }
+}
+

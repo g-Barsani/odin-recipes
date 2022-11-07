@@ -133,6 +133,17 @@ div #the-puking-pumpkin {
         background-size: cover;
         
         background-position: center; 
+        
+    }
+
+    div #halloween-cake-pops:hover,
+    div #halloween-spaghetti:hover,
+    div #black-cat-martini:hover,
+    div #the-puking-pumpkin:hover {
+        opacity: 70%;
+        cursor: pointer;
+        /* Delay the interaction with the thumbnail visually */
+        transition: 1s;
     }
 
     #repo-section {

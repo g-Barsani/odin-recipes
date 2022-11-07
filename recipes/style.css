@@ -11,6 +11,11 @@ h2, p, li {
     font-family: 'Source Sans Pro';
 }
 
+img {
+    width: 570px;
+    height: 400px;
+}
+
 #ingredients label {
     /* float: left; */
   }
@@ -65,3 +70,11 @@ h2, p, li {
     list-style: none;
     /* float: left; */
   }
+
+#separator {
+    background-image: url("");
+    background-color: pink;
+
+    width: 300px;
+    height: 300px
+}

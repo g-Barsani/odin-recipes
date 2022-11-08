@@ -22,8 +22,13 @@
         <h2>Description</h2>
         <p>If there's one recipe you need this Halloween it's the Puking Pumpkin. Cause really, who doesn't want a pumpkin throwing up guacamole all over Halloween?</p>
         <p>Folks, it's that time of the year again when we start making extremely questionable recipes in the name of Halloween. The puking pumpkin is no exception to that. It’s kinda beautiful though right? I mean as beautiful as a barfing pumpkin can be.</p>
-        <h2>Ingredients</h2>
-        <div id="ingredients">
+        <div class="tab">
+            <button class="tablinks" onclick="openSection(event, 'ingredients')" id="defaultOpen">Ingredients</button>
+            <button class="tablinks" onclick="openSection(event, 'steps')">Steps</button>
+        </div>
+
+        <div id="ingredients" class="tabcontent">
+            <h2>Ingredients</h2>
             <ul>
                 <li><label><input type="checkbox">1 Large Pumpkin</li>
                 <li><label><input type="checkbox">1 Tray of Tortilla Chips (approx 14oz/400g)</li>
@@ -32,6 +37,8 @@
                 <li><label><input type="checkbox">1 Cup Guac, or as needed</li>
                 <li><label><input type="checkbox">1/2 Cup Sour Cream, or as needed</li>
             </ul>
+        </div>
+        <div id="steps" class="tabcontent">
             <h2>Steps</h2>
             <ol>
                 <li>Cut out a small circle at the tip of the Pumpkin, big enough to comfortably fit your hand in. Using a spoon, scoop out all the center of the Pumpkin. Draw on the style of face you want, then carefully carve out. Ensure the mouth is open to allow the guac to pour out.</li>
@@ -40,5 +47,6 @@
             </ol>
         </div>
         
+        <script src="script.js"></script>
     </body>
 </html>

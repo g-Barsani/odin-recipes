@@ -71,10 +71,45 @@ img {
     /* float: left; */
   }
 
-#separator {
-    background-image: url("");
-    background-color: pink;
-
-    width: 300px;
-    height: 300px
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: orangered;
 }
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    color: white;
+    font-family: 'Source Sans Pro';
+    font-weight: bold;
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background-color: orange;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+  @media (min-width: 576px) {
+    .tab {
+        width:600px; 
+    }
+
+    .tabcontent {
+        width:576px; 
+    }
+  } 

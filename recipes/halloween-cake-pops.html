@@ -17,13 +17,18 @@
     </head>
 
     <body>
-        <div id="separator"></div>
         <h1>Halloween Cake Pops</h1>
         <img src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1095456_10-8dee3d7.jpg?quality=90&webp=true&resize=440,400" alt="Halloween cake pops in a pumpkin bowl">
         <h2>Description</h2>
         <p>These eerie eyeball chocolate cake pops will be a hit with kids at Halloween - they can help decorate them too!</p>
-        <h2>Ingredients</h2>
-        <div id="ingredients">
+        <div class="tab">
+            <button class="tablinks" onclick="openSection(event, 'ingredients')" id="defaultOpen">Ingredients</button>
+            <button class="tablinks" onclick="openSection(event, 'steps')">Steps</button>
+
+        </div>
+        
+        <div id="ingredients" class="tabcontent">
+            <h2>Ingredients</h2>
             <ul>
                 <li><label><input type="checkbox">100g/4oz Madeira cake</li>
                 <li><label><input type="checkbox">100g Chocolate sandwich cookies</li>
@@ -33,6 +38,8 @@
                 <li><label><input type="checkbox">10 Wooden skewers</li>
                 <li><label><input type="checkbox">½ Small pumpkin or butternut squash , deseeded, to stand pops in</li>
             </ul>
+        </div>
+        <div id="steps" class="tabcontent">
             <h2>Steps</h2>
             <ol>
                 <li>Break the Madeira cake and cookies into the bowl of a food processor, pour in the melted milk chocolate and whizz to combine.</li>
@@ -40,5 +47,7 @@
                 <li>Push a skewer into each ball, then carefully spoon the white chocolate over the cake balls to completely cover. Stand the cake pops in the pumpkin, then press a chocolate bean onto the surface while wet. Chill again until the chocolate has set. Before serving, using the icing pens, add a pupil to each chocolate bean and wiggly red veins to the eyeballs.</li>
             </ol>
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>

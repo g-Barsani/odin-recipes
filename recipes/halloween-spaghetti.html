@@ -21,8 +21,13 @@
         <img src="https://summeryule.com/wp-content/uploads/2021/09/healthy-halloween-recipes-noodles-720x720.jpeg" alt="Two bowls of the Halloween Spaghetti">
         <h2>Description</h2>
         <p> This one is different than most of the Halloween spaghetti ideas you'll find online: a Halloween themed plate of pasta (With no food coloring and no squid ink!)</p>
-        <h2>Ingredients</h2>
-        <div id="ingredients">
+        <div class="tab">
+            <button class="tablinks" onclick="openSection(event, 'ingredients')" id="defaultOpen">Ingredients</button>
+            <button class="tablinks" onclick="openSection(event, 'steps')">Steps</button>
+        </div>
+
+        <div id="ingredients" class="tabcontent">
+            <h2>Ingredients</h2>
             <ul>
                 <li><label><input type="checkbox">Creamy peanut butter</li>
                 <li><label><input type="checkbox">Dastony poppy seed butter</li>
@@ -37,6 +42,8 @@
                 <li><label><input type="checkbox">Scallion</li>
                 <li><label><input type="checkbox">Pepitas (green pumpkin seeds)</li>
             </ul>
+        </div>
+        <div id="steps" class="tabcontent">
             <h2>Steps</h2>
             <ol>
                 <li>Set a large pot of water to boil over medium-high heat for the spaghetti. Make the sauce by whisking together the peanut butter, poppy seed butter, soy sauce, fish sauce, sesame oil, minced garlic, and maple syrup. Set the Halloween spaghetti sauce aside.</li>
@@ -47,5 +54,7 @@
                 <li>Divide the Halloween spaghetti between the serving bowls. Garnish with the pumpkin-shaped carrots, sliced scallions, and pumpkin seeds.</li>
             </ol>
         </div>
+
+        <script src="script.js"></script>
     </body>
 </html>

@@ -7,13 +7,21 @@ h1 {
     font-family: 'Bebas Neue';
 }
 
-h2, p, li {
+h2, p, li, a {
     font-family: 'Source Sans Pro';
 }
 
 img {
     width: 570px;
     height: 400px;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
 }
 
 #ingredients label {

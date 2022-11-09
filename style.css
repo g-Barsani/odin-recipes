@@ -70,7 +70,7 @@ div #the-puking-pumpkin {
     margin: 10px;
     margin-top: 18px;
     padding: 1px;
-    min-width: 570px;
+    min-width: 500px;
     border-radius: 5px;
 }
 
@@ -79,7 +79,7 @@ div #the-puking-pumpkin {
 }
 
 .github-logo img{
-    top: 317%;
+    top: 236%;
     left: 10%;
     position: absolute;
     width: 60px; /* you can use % */
@@ -88,8 +88,8 @@ div #the-puking-pumpkin {
 #release-year {
     color: white;
     position: absolute;
-    top: 335%;
-    left: 47%;
+    top: 250%;
+    left: 50%;
     text-decoration: underline;
 }
 
